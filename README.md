@@ -26,5 +26,24 @@ The Multisafe project consists of 12 contracts as given in the contracts directo
 
 
 We divide the functionality of MultiSafe is divided into the following 8 modules 
-- Module 1: this consists of the sip010 fungible token template as well as an implementation of this template. The main file - verity-games is empty for this module.
-- Module 2: 
+- Module 1: It has functions to add owners and get the threshold number of owners that need to sign the contract.
+- Module 2: Adding functions to add and remove owners of the multisafe contract.
+- Module 3: Adding functions to set threshold number of signatures as well as to revoke the parties previously assigned
+- Module 4: Adding traits (template) as well as a function to confirm the transaction
+
+
+## Module 1
+- Explain about the invocation of the init function 
+- also explain each function; some easy functions can be glossed over
+- use of unwrap-panic vs unwrap!
+
+
+## Module 2
+- 
+
+## Module 3
+
+
+## Module 4
+- explain the introduction of templates
+- and how we cannot invoke confirm since the contracts implementing the traits in the function call are not implemented
